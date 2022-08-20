@@ -2,7 +2,7 @@
 $(".event-speaker").on("click", function () {
   $(this).siblings(".speaker-modal_wrapper").addClass("is-open");
   $(this).siblings(".speaker-modal_overlay").addClass("is-open");
-  gsap.from($(this).siblings(".speaker-modal_container"), {
+  gsap.from($(".speaker-modal_wrapper").find(".speaker-modal_container"), {
     opacity: 0,
     y: "-100%",
     duration: 0.8,
