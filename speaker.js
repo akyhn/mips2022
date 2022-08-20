@@ -25,5 +25,5 @@ gsap.from(".event_container", {
   x: "-100%",
   duration: 0.8,
   delay: 0.4,
-  ease: "power2.out",
+  ease: "power2.out"
 });
