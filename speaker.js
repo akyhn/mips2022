@@ -28,3 +28,5 @@ gsap.from(".event_container", {
   duration: 0.8,
   ease: "power1.out",
 });
+
+gsap.set("body", { fill: "blue" });
