@@ -21,3 +21,9 @@ $(document).on("keyup", function (e) {
   if (e.key == "Escape") $(".speaker-modal_btn").click();
 });
 
+gsap.from(".event_container", {
+  opacity: 0,
+  x: -100,
+  duration: 0.8,
+  ease: "power1.out",
+});
