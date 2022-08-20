@@ -20,3 +20,10 @@ $(".speaker-modal_btn").on("click", function () {
 $(document).on("keyup", function (e) {
   if (e.key == "Escape") $(".speaker-modal_btn").click();
 });
+gsap.from(".event_container", {
+  opacity: 0,
+  x: "-100%",
+  duration: 0.8,
+  delay: 0.4,
+  ease: "power2.out",
+});
