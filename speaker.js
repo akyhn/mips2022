@@ -7,7 +7,7 @@ $(".event-speaker").on("click", function () {
     y: "-100%",
     duration: 0.8,
     delay: 0.4,
-    ease: "power1.out",
+    ease: "power1.out"
   });
 });
 
